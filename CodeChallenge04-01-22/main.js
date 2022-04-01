@@ -11,8 +11,13 @@
 //P:
 //Make a function that takes in an array
 function doubled(array) {
-  return array.map((element) => element * 2);
+  if (array === undefined || array.length === 0) {
+    console.log("Array is invalid");
+  } else {
+    return array.map((element) => element * 2);
+  }
 }
 //map throught the array and mutiple each element by 2. also return it
-doubled([2, 3, 4]);
+doubled([1, 2, 3]);
 console.log(doubled([2, 3, 4], [4, 6, 8]));
+console.log(doubled([]));
