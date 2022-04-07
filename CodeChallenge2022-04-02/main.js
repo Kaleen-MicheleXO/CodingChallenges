@@ -4,7 +4,7 @@
 // Example:
 // 348597 => [7,9,5,8,4,3]
 // 0 => [0]
-//P: Are you evern given an empty array? What then? Are you always given digits?
+//P: Are you ever given an empty array? What then? Are you always given digits?
 //R: Whatever number was given, it is now split up into an array and the order of the number is reversed
 //E: ifwe wer given 9238 => [8,3,2,9]
 //                  330 => [0,3,3]
