@@ -9,8 +9,7 @@ switchItUp(3), "Three";
 switchItUp(5), "Five";
 
 //We can write a switch statement inside of the function with e case of the switchItUp perameter.
-//then each case will be the possible numbers 0-9:
-//and then we will return the word of the number`
+//then each case will be the possible numbers 0-9: then we will return the word of the number``
 
 function switchItUp(number) {
   switch (number) {
