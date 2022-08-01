@@ -11,7 +11,7 @@
 // "This white dog has 4 legs."
 
 
-//My answer
+//My Solution
 function animal(obj){
     let Animal={
       name:obj.name,
