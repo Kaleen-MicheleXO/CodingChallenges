@@ -9,6 +9,9 @@
 // {name:"dog",legs:4,color:"white"}
 // and return a string like this:
 // "This white dog has 4 legs."
+
+
+//My answer
 function animal(obj){
     let Animal={
       name:obj.name,
